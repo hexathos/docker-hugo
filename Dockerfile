@@ -4,13 +4,13 @@ MAINTAINER Rainer Bendig <hexathos@mailbox.org>
 
 RUN apt update
 RUN apt full-upgrade
-run apt install -y \
+RUN apt install -y \
     curl \
     git \
     openssh-client \
     rsync
 
-ENV VERSION 0.91.2
+ENV VERSION 0.102.3
 RUN mkdir -p /usr/local/src \
     && cd /usr/local/src \
 
