@@ -9,7 +9,7 @@ RUN apt install -y \
     openssh-client \
     rsync
 
-ENV VERSION 0.104.0
+ENV VERSION 0.104.1
 RUN mkdir -p /usr/local/src
 RUN cd /usr/local/src 
 RUN curl -vL https://github.com/gohugoio/hugo/releases/download/v${VERSION}/hugo_${VERSION}_linux-amd64.deb -o /usr/local/src/hugo_${VERSION}_linux-amd64.deb
