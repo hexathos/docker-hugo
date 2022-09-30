@@ -5,7 +5,7 @@ LABEL maintainer="hexathos@mailbox.org"
 RUN apt update
 RUN apt install -y curl 
 
-ENV VERSION 0.104.1
+ENV VERSION 0.104.2
 
 RUN mkdir -p /usr/local/src
 RUN cd /usr/local/src 
