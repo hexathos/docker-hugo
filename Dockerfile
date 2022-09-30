@@ -3,7 +3,7 @@ FROM debian:bullseye
 LABEL maintainer="hexathos@mailbox.org"
 
 RUN apt update
-RUN apt install -y curl 
+RUN apt install -y curl git rsync
 
 ENV VERSION 0.104.2
 
