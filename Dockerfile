@@ -5,7 +5,7 @@ LABEL maintainer="hexathos@mailbox.org"
 RUN apt update
 RUN apt install -y curl git rsync
 
-ENV VERSION 0.107.0
+ENV VERSION 0.108.0
 
 RUN mkdir -p /usr/local/src
 RUN cd /usr/local/src 
